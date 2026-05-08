@@ -1,0 +1,67 @@
+
+    __    __     __  __     ______     __     ______      
+   /\ "-./  \   /\ \/\ \   /\  ___\   /\ \   /\  ___\  
+   \ \ \-./\ \  \ \ \_\ \  \ \___  \  \ \ \  \ \ \____ 
+    \ \_\ \ \_\  \ \_____\  \/\_____\  \ \_\  \ \_____\ 
+     \/_/  \/_/   \/_____/   \/_____/   \/_/   \/_____/ 
+
+                            this is music! version 1.53
+
+ - Version built from git rev.: 6248d13, tag: N/A, branch: master
+ - Version was compiled for double precision.
+
+
+ - Opening log file './music_000.info_log.txt'.
+ - Using k-space sampled transfer functions...
+ - Selecting transfer function plug-in 'eisenstein'...
+ - starting at a=0.125
+ - Selecting region generator plug-in 'box'...
+ - Selecting random number generator plug-in 'MUSIC'...
+-------------------------------------------------------------
+ - Grid structure:
+     Level   7 :   offset = (    0,     0,     0)
+                     size = (  128,   128,   128)
+-------------------------------------------------------------
+ - Finest level :
+                   extent =  128 x 128 x 128 h-3 Mpc**3
+                 mtotgrid =  1.79256e+17 h-1 M_o
+            particle mass =  8.54761e+10 h-1 M_o
+                       dx =  1 h-1 Mpc
+-------------------------------------------------------------
+ - Selecting output plug-in 'gadget2'...
+=============================================================
+   GENERATING WHITE NOISE
+-------------------------------------------------------------
+ - Found 0 density constraint(s) to be obeyed.
+ - Generating random numbers (2) with seed 1689456004
+ - Generating random numbers w/ sample cube size of 32
+=============================================================
+   COMPUTING VELOCITIES
+-------------------------------------------------------------
+ - Using k-space transfer function kernel.
+ - Performing noise convolution on level   7
+   - Performing density convolution... (128, 128, 128)
+ - Density calculation took 0.0732008s with 16 threads.
+ - Top grid mean density is off by -2.63851e-19, correcting...
+-------------------------------------------------------------
+ - Invoking unigrid FFT Poisson solver...
+ - Computing 2LPT term....
+ - Solving 2LPT Poisson equation
+-------------------------------------------------------------
+ - Invoking unigrid FFT Poisson solver...
+ - velocity component 0 : sigma = 0.920433
+ - velocity component 1 : sigma = 0.780495
+ - velocity component 2 : sigma = 1.01186
+=============================================================
+   COMPUTING DARK MATTER DISPLACEMENTS
+-------------------------------------------------------------
+ - max. x-displacement of HR particles is -3.005379 [mean dx]
+ - max. y-displacement of HR particles is 3.375977 [mean dx]
+ - max. z-displacement of HR particles is 3.345497 [mean dx]
+ - Gadget2 : writing 2097152 particles to file...
+ -       type   1 :      2097152 [m=8.54761]
+=============================================================
+ - Wrote output file '/home/subhankar/MS_thesis/Codes/MUSIC/data_snaps/thousand_data/With_SBI//output_posterior_seed_1689456004/snap_000'
+     using plugin 'gadget2'...
+ - Done!
+
