@@ -1,0 +1,24 @@
+======================================================================
+FAST IMNN Wedge-Filtered Temperature Map Training Summary
+======================================================================
+Model dir                : /scratch/subhankar/thesis/codes/imnn_w_ms_temp_map_w_noise_w_wedge/imnn_output_wedge_filtered_fast_try2_correct/model_wedge_filtered_tempmap_ngrid64_fast
+History npz              : /scratch/subhankar/thesis/codes/imnn_w_ms_temp_map_w_noise_w_wedge/imnn_output_wedge_filtered_fast_try2_correct/model_wedge_filtered_tempmap_ngrid64_fast/history.npz
+Built-in history plot    : /scratch/subhankar/thesis/codes/imnn_w_ms_temp_map_w_noise_w_wedge/imnn_output_wedge_filtered_fast_try2_correct/imnn_builtin_history_wedge_filtered_fast.pdf
+Fisher plot              : /scratch/subhankar/thesis/codes/imnn_w_ms_temp_map_w_noise_w_wedge/imnn_output_wedge_filtered_fast_try2_correct/fisher_vs_epochs_wedge_filtered_fast.pdf
+3-panel plot             : /scratch/subhankar/thesis/codes/imnn_w_ms_temp_map_w_noise_w_wedge/imnn_output_wedge_filtered_fast_try2_correct/imnn_3panel_history_wedge_filtered_fast.pdf
+Epochs                   : 518
+Final train |F|          : 6.589950e+01
+Final val |F|            : 2.633257e+01
+Best train |F|           : 6.671587e+01
+Best val |F|             : 2.716218e+01 (epoch 322)
+Final Fisher matrix      :
+[[86.30227  15.436563]
+ [15.436563  3.071516]]
+Final det(F) from matrix : 2.679134e+01
+History keys saved       : ['det_F', 'val_det_F', 'det_C', 'val_det_C', 'det_Cinv', 'val_det_Cinv', 'dμ_dθ', 'val_dμ_dθ', 'reg', 'r']
+mixed_precision_requested: True
+mixed_precision_active   : False
+num_gpus_detected        : 0
+xla                      : True
+at_once                  : 200
+======================================================================
